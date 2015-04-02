@@ -157,7 +157,7 @@ function Snow(m,x,y) {
     
 
     if (this.position.y > height ) {
-      this.position.y = 0 - random(1,30);
+      this.position.y = 0 - random(1,100);
       this.velocity = createVector(0,0);
     };
 
